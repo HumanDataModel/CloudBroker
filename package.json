@@ -2,14 +2,12 @@
     "name": "Human Data Model",
     "description": "HDmodel dependencies",
     "version": "0.0.1",
-
     "scripts": {
         "start": "forever start index.js",
-        "stop":  "forever stop index.js",
+        "stop": "forever stop index.js",
         "restart": "forever restart index.js"
     },
-
     "dependencies": {
-        "socket.io": "*"
+        "socket.io": "^2.0.4"
     }
 }
