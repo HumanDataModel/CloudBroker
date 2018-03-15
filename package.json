@@ -3,6 +3,12 @@
     "description": "HDmodel dependencies",
     "version": "0.0.1",
 
+    "scripts": {
+        "start": "forever start CloudBroker.js",
+        "stop":  "forever stop CloudBroker.js",
+        "restart": "forever restart CloudBroker.js"
+    },
+
     "dependencies": {
         "socket.io": "*"
     }
