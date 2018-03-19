@@ -1,2 +1,2 @@
-require('./CloudBroaker.js');
+require('./controllers/CloudBroaker.js');
 require('./HDMhub.js');
